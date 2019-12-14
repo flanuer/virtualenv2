@@ -3,4 +3,4 @@ import matplotlib.pyplot as plt
 
 face = misc.face()
 plt.imshow(face)
-plot.show()
+plt.show()
