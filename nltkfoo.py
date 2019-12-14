@@ -10,3 +10,10 @@ sentence from paragraph."
 print(sent_tokenize(example_text))
 print("..................................")
 print(word_tokenize(example_text))
+
+print("..................................")
+from nltk.corpus import stopwords
+import nltk
+
+sw = stopwords.words('english')
+print(sw)
